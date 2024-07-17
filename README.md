@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import imag from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-imag@esm/index.mjs';
+import imag from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-imag@v0.1.0-esm/index.mjs';
 ```
 
 #### imag( z )
@@ -98,7 +98,7 @@ var im = imag( z );
 import Complex64 from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-ctor@esm/index.mjs';
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform@esm/index.mjs';
 import filledarrayBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
-import imag from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-imag@esm/index.mjs';
+import imag from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-float32-imag@v0.1.0-esm/index.mjs';
 
 function random() {
     return new Complex64( discreteUniform( -10, 10 ), discreteUniform( -10, 10 ) );
